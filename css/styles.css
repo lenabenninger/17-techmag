@@ -93,12 +93,20 @@ h3{
   background-color: #11161d;
 }
 
+.section-produit img {
+  width: 40%;
+}
+
 .produit-box {
   color: #11161d;
-  background-color: #e6f3ff;
+  background: #e6f3ff;
   padding: 20px;
   margin: 30px 30px 60px;
   border-radius: 22px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: flex-end;
 }
 
 .section-contact {
