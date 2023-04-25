@@ -12,12 +12,40 @@ img {
 
 header {
   background-image: url(../img/fond-header.jpg);
-  border-top: 
+  background-size: cover;
+}
+
+.title-box {
+  background-color: #000000ee;
+}
+
+.slogan {
+  color: #e6f3ff;
+}
+.cta-container .cta {
+  text-decoration: none;
+}
+
+.cta-dark {
+  color: #e6f3ff;
+  background-color: #11161d;
+}
+
+.cta-light {
+  color: #11161d;
+  background-color: #e6f3ff;
+}
+
+.section-intro {
+  color: #11161d;
+  background-color: #e6f3ff;
+}
 }
 
 h2 {
   font-size: 30px;
   font-weight: 300;
+  padding: 20px 50px;
 }
 
 h3{
@@ -25,7 +53,14 @@ h3{
   font-weight: 400;
 }
 
-.slogan {
-  font-size: 20px;
+.section-produit {
+  color: #e6f3ff;
+  background-color: #11161d;
 }
+
+.section-contact {
+  color: #11161d;
+  background-color: #e6f3ff;
+}
+
 
